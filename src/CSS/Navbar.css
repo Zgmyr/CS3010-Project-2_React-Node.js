@@ -1,0 +1,28 @@
+.navbar{
+    background-color: hsl(0,0%,10%);
+}
+
+.navbar ul{
+    list-style-type: none; /*removes bullet points*/
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none; /*removes underline*/
+    padding: 15px;
+    display: block; /*<a> elements are inline by default*/
+    text-align: center;
+    text-shadow: -6px 6px 3px #000000;
+}
+
+.navbar a:hover{
+    background-color: hsl(0,0%,10%); /*changes color of <a> background when hovering over it*/
+    color: blue;
+}
+
+.navbar li{
+    float: left; /*this changes from vertical list to horizontal alignment*/
+}
